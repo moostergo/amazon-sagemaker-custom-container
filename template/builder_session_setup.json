@@ -43,7 +43,7 @@
       "Properties": {
         "Description": "AWS Cloud9 instance for builder session GPSTEC417",
         "AutomaticStopTimeMinutes": 120,
-        "InstanceType": { "Ref" : "01C9InstanceType" },
+        "InstanceType": "t3.micro",
         "Name": { "Ref": "AWS::StackName" }
       }
     },
