@@ -7,7 +7,7 @@
 	"01C9InstanceType" : {
       "Description" : "Cloud9 instance type",
       "Type" : "String",
-      "Default" : "m4.xlarge",
+      "Default" : "m5.large",
       "AllowedValues" : [ "m5.large", "t2.micro", "t3.small" ],
       "ConstraintDescription" : "Must be a valid Cloud9 instance type"
     },
