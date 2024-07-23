@@ -7,8 +7,8 @@
 	"01C9InstanceType" : {
       "Description" : "Cloud9 instance type",
       "Type" : "String",
-      "Default" : "t2.micro",
-      "AllowedValues" : [ "t2.micro"],
+      "Default" : "t3.micro",
+      "AllowedValues" : "t3.micro",
       "ConstraintDescription" : "Must be a valid Cloud9 instance type"
     },
 	"02BucketName" :{
