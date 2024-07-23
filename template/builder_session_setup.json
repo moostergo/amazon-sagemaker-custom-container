@@ -8,7 +8,7 @@
       "Description" : "Cloud9 instance type",
       "Type" : "String",
       "Default" : "m4.xlarge",
-      "AllowedValues" : [ "m4.large", "m4.xlarge", "t2.large" ],
+      "AllowedValues" : [ "m5.large", "t2.micro", "t3.small" ],
       "ConstraintDescription" : "Must be a valid Cloud9 instance type"
     },
 	"02BucketName" :{
